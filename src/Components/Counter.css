@@ -1,0 +1,46 @@
+/* Container for the counter elements */
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+  }
+  
+  /* Styling for the h1 count display */
+  .counter-value {
+    font-size: 3rem;
+    margin: 0 20px;
+    color: #333;
+  }
+  
+  /* Common button styling */
+  .counter-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  /* Styling for hover effect on buttons */
+  .counter-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Specific styling for increment and decrement buttons */
+  .increment {
+    background-color: #4CAF50;
+  }
+  
+  .decrement {
+    background-color: #f44336;
+  }
+  
+  .decrement:hover {
+    background-color: #d32f2f;
+  }
+  
